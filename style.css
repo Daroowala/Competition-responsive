@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 30px;
+    left: 660px;
+    font-size: small;
+    color: rgb(158, 154, 154);
+}
+.nav-link{
+    color: black;
+}
+.navbar-nav{
+    position: absolute;
+    right: 70px;
+    font-size: small;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    left: 450px;
+    top: 13px;
+}
+.navbar-brand{
+    margin: 20px 10px;
+}
+.fa-magnifying-glass{
+display: flex;
+align-items: flex-end;
+flex-direction: row;
+}
+.hero{
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.bg-img{
+width: 100%;
+height: 100vh;
+display: flex;
+
+}
+.p1{
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 420px){
+    
+}
