@@ -1,89 +1,111 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-html,body{
-    width: 100%;
-    height: 100%;
-    font-family: sans-serif;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
 }
-.fa-magnifying-glass{
-    position: absolute;
-    top: 30px;
-    left: 660px;
-    font-size: small;
-    color: rgb(158, 154, 154);
+.fa-magnifying-glass {
+  position: absolute;
+  top: 30px;
+  left: 660px;
+  font-size: small;
+  color: rgb(158, 154, 154);
 }
-.nav-link{
-    color: black;
+.nav-link {
+  color: black;
 }
-.navbar-nav{
-    position: absolute;
-    right: 70px;
-    font-size: small;
+.navbar-nav {
+  position: absolute;
+  right: 70px;
+  font-size: small;
 }
-.fa-magnifying-glass{
-    position: absolute;
-    left: 450px;
-    top: 13px;
+.fa-magnifying-glass {
+  position: absolute;
+  left: 450px;
+  top: 13px;
 }
-.navbar-brand{
-    margin: 20px 10px;
+.navbar-brand {
+  margin: 20px 10px;
 }
-.fa-magnifying-glass{
-display: flex;
-align-items: flex-end;
-flex-direction: row;
+.fa-magnifying-glass {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
 }
-.hero{
-    border: 1px solid black;
-    width: 100%;
-    height: 100vh;
-    display: flex;
+.hero {
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
 }
-.bg-img{
-    width: 100%;
-    height: 100%;
-    position: relative;
-  
+.bg-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
-.hello{
+.hello {
+  position: absolute;
+  top: 65%;
+  left: 4%;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+.joy {
+  position: absolute;
+  top: 60%;
+  left: 4%;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.learn {
+  position: absolute;
+  top: 80%;
+  left: 4%;
+  width: 18%;
+  height: 9%;
+  background-color: #f5204b;
+  border: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500px;
+}
+
+@media (max-width: 385px) {
+  .hello {
     position: absolute;
     top: 65%;
     left: 4%;
-    font-family: "Roboto" , sans-serif;
-    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
     font-weight: bold;
-}
-.joy{
+  }
+  .joy {
     position: absolute;
     top: 60%;
     left: 4%;
-    font-family: "Roboto" , sans-serif;
-    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
     font-weight: bold;
-}
-.learn{
+  }
+  .learn {
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 4%;
-    width: 18%;
+    width: 37%;
     height: 9%;
-    background-color:#f5204b ;
+    background-color: #f5204b;
     border: none;
     color: white;
-    font-family: "Roboto" , sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 13px;
     font-weight: 500px;
-}
-
-
-
-
-
-
-
-@media (max-width: 420px){
-    
+  }
 }
