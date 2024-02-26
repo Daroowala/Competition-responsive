@@ -44,8 +44,38 @@ flex-direction: row;
 }
 .bg-img{
     width: 100%;
-    height: 60%s;
+    height: 100%;
+    position: relative;
   
+}
+.hello{
+    position: absolute;
+    top: 65%;
+    left: 4%;
+    font-family: "Roboto" , sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+.joy{
+    position: absolute;
+    top: 60%;
+    left: 4%;
+    font-family: "Roboto" , sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.learn{
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    width: 18%;
+    height: 9%;
+    background-color:#f5204b ;
+    border: none;
+    color: white;
+    font-family: "Roboto" , sans-serif;
+    font-size: 13px;
+    font-weight: 500px;
 }
 
 
