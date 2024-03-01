@@ -38,7 +38,6 @@ body {
   flex-direction: row;
 }
 .hero {
-  border: 1px solid black;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -138,7 +137,6 @@ body {
   font-size: small;
 }
 .welcome{
-  border: 1px solid black;
   width: 100%;
   height: 60%;
   position: absolute;
@@ -161,6 +159,93 @@ body {
   left: 52%;
   color: lightslategray;
 }
+.card1{
+  border: 1px solid rgb(235, 236, 238);
+  width: 140px;
+  height: 180px;
+  position: absolute;
+  top: 200px;
+  left: 520px;    
+}
+.fa-coins{
+  font-size: 30px;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  color: red;
+}
+.card1-mi{
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.donation{
+  position: absolute;
+  top: 115px;
+  left: 20px;
+  color: lightslategray;
+}
+.card2{
+  border: 1px solid rgb(235, 236, 238);
+  width: 140px;
+  height: 180px;
+  position: absolute;
+  top: 200px;
+  left: 684px;  
+}
+.fa-book{
+  font-size: 30px;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  color: red;
+}
+.card2-mi{
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.book{
+  position: absolute;
+  top: 115px;
+  left: 20px;
+  color: lightslategray;
+}
+.card3{
+  border: 1px solid rgb(235, 236, 238);
+  width: 140px;
+  height: 180px;
+  position: absolute;
+  top: 200px;
+  left: 847px;
+}
+.fa-user-group{
+  font-size: 30px;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  color: red;
+}
+.card3-mi{
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.volunteers{
+  position: absolute;
+  top: 115px;
+  left: 20px;
+  color: lightslategray;
+}
+
+
+
   
 
  
