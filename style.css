@@ -329,29 +329,18 @@ body {
     font-size: small;
   }
   .card1{
-    position: absolute;
-    left: -10px;
-    top: 545px;
-    display: flex;
-    width: 390px;
-    height: 180px;
+    left: 7px;
+    top: 377px;
+    width: 97%;
 }
-.card2{
-  display: flex;
-  position: absolute;
-  left: -10px;
-  top: 723px;
-  display: flex;
-  width: 390px;
-  height: 180px;
+.card2{ 
+  left: 7px;
+  top: 560px;
+  width: 97%;
 }
 .card3{
-  display: flex;
-  position: absolute;
-  left: -10px;
-  top: 903px;
-  display: flex;
-  width: 390px;
-  height: 180px;
+  left: 7px;
+  top: 743px;
+  width: 97%;
 }
 }
