@@ -252,6 +252,13 @@ body {
 
 
 @media (max-width: 385px) {
+  .hero {
+    width: 78.4%;
+    height: 100vh;
+    display: flex;
+    
+  }
+  
   .hello {
     position: absolute;
     top: 65%;
@@ -285,9 +292,7 @@ body {
     height: 75%;
     position: relative;
   }
-  .hero {
-    border: none;
-  }
+  
   .btn2 {
     background-color: rgb(245, 32, 75);
     width: 150px;
